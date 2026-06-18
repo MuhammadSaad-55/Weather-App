@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="shortcut icon" href="images/rainy.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app-container">
+      <div class="loading">
+        <p>Loading...</p>
+      </div>
+      <div class="search-box">
+        <input
+          type="text"
+          name="city"
+          id="city-input"
+          placeholder="Enter Your Location"
+          spellcheck="false"
+        />
+        <button id="search"><img src="images/search_icon2.png" alt="" /></button>
+      </div>
+      <div class="error">
+        <p>Invalid City Name</p>
+      </div>
+
+      <div class="weather">
+        <img src="images/cloudy.png" alt="" class="weather-icon" />
+        <p id="condition">Clear</p>
+        <h1 id="temp"></h1>
+        <p id="feels-like"></p>
+        <h2>
+          <span id="city">Lahore</span>
+          <span id="country"></span>
+        </h2>
+        <p id="date"></p>
+
+        <div class="details">
+          <div class="col">
+            <img src="images/humidity.png" alt="" />
+
+            <div>
+              <p class="humidity"></p>
+              <p>Humidity</p>
+            </div>
+          </div>
+
+          <div class="col">
+            <img src="images/wind.png" alt="" />
+            <div>
+              <p class="wind"></p>
+              <p>Wind Speed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
