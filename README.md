@@ -2,7 +2,7 @@
 
 A clean, minimal weather app built with HTML, CSS, and JavaScript — powered by the OpenWeatherMap API. Search any city and get real-time weather data instantly.
 
-🔗 **Live Demo:** [shiny-scone-dbc234.netlify.app](https://shiny-scone-dbc234.netlify.app/)
+🔗 **Live Demo:** [https://weather-app-one-lovat-61.vercel.app/](https://weather-app-one-lovat-61.vercel.app/)
 
 ---
 
